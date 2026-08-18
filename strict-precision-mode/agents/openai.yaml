@@ -1,0 +1,7 @@
+interface:
+  display_name: "Strict Precision Mode"
+  short_description: "Enforce precise, verified agent responses"
+  default_prompt: "Use $strict-precision-mode for this task."
+
+policy:
+  allow_implicit_invocation: true
