@@ -2,15 +2,17 @@
 
 A portable agent skill that requires verified, scope-bound, exact responses. It is compatible with the [skills CLI](https://github.com/vercel-labs/skills), which can install skills into its supported agents.
 
-## Install globally
+## Install
 
-After creating the public GitHub repository, replace `<YOUR_GITHUB_OWNER>` and run:
+Run the following command and choose the agents, installation scope, and installation method when prompted:
 
 ```powershell
-npx skills add <YOUR_GITHUB_OWNER>/strict-precision-mode -g --agent '*'
+npx skills add ahmedhabibmezni/Strict-Precision-Mode --skill strict-precision-mode
 ```
 
 Restart the target agent after installation.
+
+Do not add `--agent '*'` unless the intention is to install into every supported agent. Add `-g` only when the skill should be available globally instead of in one project.
 
 ## Limits
 
